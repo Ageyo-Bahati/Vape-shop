@@ -27,14 +27,14 @@ h1, h2 {
     color:blue;
 }
 
-nav,ul{
+nav,li{
     list-style: none;
-    margin: 0;
+    margin-right:25px 0;
     padding: 0;
-    display: inline-block;
+    display:inline-block;
 }
 
-nav,li {
+nav,ul {
     display: inline-block;
     margin: 0 15px;
 }
