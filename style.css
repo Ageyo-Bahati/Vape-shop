@@ -19,6 +19,7 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    Margin:0;
 }
 
 h1, h2 {
@@ -26,14 +27,14 @@ h1, h2 {
     color:blue;
 }
 
-nav{
+nav,ul{
     list-style: none;
     margin: 0;
     padding: 0;
     display: inline-block;
 }
 
-nav li {
+nav,li {
     display: inline-block;
     margin: 0 15px;
 }
@@ -202,8 +203,12 @@ footer {
     border-radius: 5px;
     cursor: pointer;
 }
-a{
-  color:black;
+button{
+  color:red;
+}
+
+a {
+
   text-decoration:none;
 }
 li{
